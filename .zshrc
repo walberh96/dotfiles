@@ -10,3 +10,4 @@ zstyle :compinstall filename '/home/willwitcher/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+eval "$(starship init zsh)"
