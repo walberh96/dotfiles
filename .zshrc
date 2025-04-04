@@ -10,4 +10,11 @@ zstyle :compinstall filename '/home/willwitcher/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
+alias ls='lsd'
+alias cat='bat'
+alias neofetch='fastfetch'
+alias dotfiles='code ~/dotfiles'
+
+
 eval "$(starship init zsh)"
