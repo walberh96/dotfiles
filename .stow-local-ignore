@@ -17,6 +17,7 @@ _darcs
 
 \.git
 \.gitignore
+\nix_config
 
 .+~          # emacs backup files
 \#.*\#       # emacs autosave files
