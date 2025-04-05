@@ -19,4 +19,8 @@ function dotf
     code ~/dotfiles
 end
 
+function mount-ntfs
+    echo "sudo mount -t ntfs-3g /dev/sdXY /mount/point"
+end
+
 starship init fish | source
