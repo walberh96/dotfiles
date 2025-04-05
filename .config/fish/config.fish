@@ -22,6 +22,7 @@ end
 function mount-ntfs
     echo "lsblk"
     echo "sudo mount -t ntfs-3g /dev/sdXY /mount/point"
+    echo "sudo umount /dev/sdXY"
 end
 
 starship init fish | source
