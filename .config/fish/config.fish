@@ -16,7 +16,7 @@ function cat
 end
 
 function dotf
-    zeditor ~/dotfiles
+    code ~/dotfiles
 end
 
 function files
