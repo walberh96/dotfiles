@@ -19,6 +19,14 @@ function dotf
     code ~/dotfiles
 end
 
+function files
+    kitty -e yazi
+end
+
+function ranger
+    kitty -e yazi
+end
+
 function mount-ntfs
     echo "lsblk"
     echo "sudo mount -t ntfs-3g /dev/sdXY /mount/point"
