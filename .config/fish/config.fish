@@ -20,11 +20,11 @@ function dotf
 end
 
 function files
-    kitty -e yazi
+    yazi
 end
 
 function ranger
-    kitty -e yazi
+    yazi
 end
 
 function mount-ntfs
