@@ -32,7 +32,8 @@ require("lazy").setup({
         -- Set the colorscheme to catppuccin-mocha after the plugin is loaded
         vim.cmd("colorscheme catppuccin-mocha")
       end
-    },
+    }
+
     -- Add other plugins here
   },
   -- Automatically check for plugin updates

@@ -135,6 +135,10 @@ tooltip label {
   margin-bottom: 0;
 }
 
+/* Notification */
+#custom-notification {
+  font-family: "NotoSansMono Nerd Font";
+}
 /* Temperature */
 
 #custom-paddc {
