@@ -21,6 +21,9 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+vim.keymap.set('v', '<C-c>', '"+y', opts)
+vim.keymap.set('v', '<C-v>', '"+p', opts)
+
 -- Setup lazy.nvim
 require("lazy").setup("plugins")
 
