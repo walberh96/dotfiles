@@ -22,26 +22,7 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 -- Setup lazy.nvim
-require("lazy").setup({
-  spec = {
-    {
-      "catppuccin/nvim",  -- Plugin name
-      name = "catppuccin", -- You can still specify a name
-      priority = 1000, -- Plugin priority
-      config = function()
-        -- Set the colorscheme to catppuccin-mocha after the plugin is loaded
-        vim.cmd("colorscheme catppuccin-mocha")
-      end
-    }
+require("lazy").setup("plugins")
 
-    -- Add other plugins here
-  },
-  -- Automatically check for plugin updates
-  checker = { enabled = true },
-})
 
--- You can explicitly set the colorscheme here to ensure it’s applied
--- even if lazy.nvim isn't fully set up yet (this shouldn't be necessary,
--- but it's here as a fallback).
-vim.cmd("colorscheme catppuccin-mocha")
 
