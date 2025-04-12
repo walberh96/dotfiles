@@ -240,7 +240,7 @@ tooltip label {
 #custom-left6 {
   color: @pulseaudio;
   background: @main-bg;
-  padding-left: 3px;
+  padding-left: 5px;
 }
 #pulseaudio {
   background: @pulseaudio;

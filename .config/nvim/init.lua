@@ -23,6 +23,7 @@ vim.g.maplocalleader = "\\"
 
 vim.keymap.set('v', '<C-c>', '"+y', opts)
 vim.keymap.set('v', '<C-v>', '"+p', opts)
+vim.keymap.set('n', '<C-a>', 'GVgg', opts)
 
 -- Setup lazy.nvim
 require("lazy").setup("plugins")

@@ -1,2 +1,7 @@
 [manager]
 show_hidden = false
+
+[plugin]
+prepend_previewers = [
+    { mime = "text/csv", run = "miller"},
+]
