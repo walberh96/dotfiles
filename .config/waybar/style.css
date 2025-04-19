@@ -311,6 +311,7 @@ tooltip label {
 #workspaces button {
   border-radius: 8px;
   padding: 0 2px;
+  
 }
 #workspaces button.active {
   padding: 0 6px;
