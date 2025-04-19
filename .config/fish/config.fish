@@ -28,6 +28,7 @@ function dotf
     code ~/dotfiles
 end
 
+alias pydev='nix-shell ~/NixShells/python-dev.nix'
 
 
 function mount-ntfs
