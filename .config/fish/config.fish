@@ -24,17 +24,10 @@ function cat
     bat $argv
 end
 
-function dotf
-    code ~/dotfiles
-end
-
-alias pydev='nix-shell ~/NixShells/python-dev.nix'
-
-
-function mount-ntfs
-    echo "lsblk"
-    echo "sudo mount -t ntfs-3g /dev/sdXY /mount/point"
-    echo "sudo umount /dev/sdXY"
-end
-
 starship init fish | source
+# pnpm
+set -gx PNPM_HOME "/home/willwitcher/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
