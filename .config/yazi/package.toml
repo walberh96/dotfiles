@@ -1,5 +1,0 @@
-[plugin]
-deps = [{ use = "GrzegorzKozub/mdcat", rev = "d3d5089" }, { use = "Reledia/miller", rev = "40e0265" }]
-
-[flavor]
-deps = []
